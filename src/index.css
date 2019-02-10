@@ -1,4 +1,4 @@
-.button {
+/* .button {
   background-color: #E0E0E6;
   font-size: 40px;
   text-align: center;
@@ -19,4 +19,133 @@ button:active {
 .orange {
   background-color: #EE9B3E;
   color: #fff;
+}
+
+.display{
+  background-color: black
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color:white;
+}
+
+.col3{
+  background-color: grey;
+  /* width : calc(3 * .8333); */
+  /* width: 10%;
+  height: 100px;
+}
+
+.col2{
+  background-color: black;
+  width:40.25%;
+  height: 100px;
+}
+
+.display{
+  text-align: right;
+  overflow-y: scroll;
+  margin-top: 100px;
+} */ 
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *:before, *:after {
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+
+outline{ 
+border: solid 1px #384655
+}
+
+
+
+body {
+  background:white;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+}
+
+.calc-body {
+  width: 302px;
+  margin: auto;
+  min-height: 400px;  
+  border: solid 1px #3A4655;
+  box-shadow: 0 8px 50px -7px black;
+}
+
+.calc-input {
+  padding-top: 20px;  
+  font-size: 40px;
+  text-align: right;
+  color: #fff;  
+  width: 300px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+  background:#3A4655;
+}
+
+.calc-button-row {
+  width: 100%;
+  background: #3C4857 ;
+}
+
+.button {
+  width: 25%;
+  background: #425062;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 0px;
+  border-right: solid 2px #3C4857;
+  border-bottom: solid 2px #3C4857;
+  transition: all 0.2s ease-in-out;
+}
+
+.button.ops {
+  color: #AEB3BA;
+  background: #404D5E;
+}
+
+* .button:hover {
+  background: rgb(17, 160, 226);  
+  color: #fff;
+}
+
+.double:hover {
+  background: rgb(17, 160, 226);
+  color: #fff;
+}
+
+
+.double {
+  width: 51.3%;
+  background: #425062;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: -4px;
+  border-right: solid 2px #3C4857;
+  border-bottom: solid 2px #3C4857;
+  transition: all 0.2s ease-in-out; 
 }

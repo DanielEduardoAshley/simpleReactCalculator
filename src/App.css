@@ -33,7 +33,7 @@
 
 
 
-.button {
+/* .button {
   background-color: #E0E0E6;
   font-size: 40px;
   text-align: center;
@@ -59,3 +59,14 @@ button:active {
 .display{
   background-color: black
 }
+
+.row{
+  display: flex;
+  width: 100%;
+  background-color: yellow;
+}
+
+.col4{
+    width : calc(4 * .83333);
+
+} */

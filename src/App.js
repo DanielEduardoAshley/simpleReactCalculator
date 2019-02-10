@@ -6,7 +6,7 @@ class App extends Component {
     return (
 
           <div className="container">
-          <div className="calc-body">
+          <div className="calc-body pointer">
           <div className="calc-input scroll">0000000000000000</div>
 
           <div className="calc-button-row">

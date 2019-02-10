@@ -173,7 +173,7 @@ chk = {
   allClear=()=>{
     if(this.state.displayValue){
        this.setState({
-         displayValue : '1',
+         displayValue : '0',
 
        }
        )
